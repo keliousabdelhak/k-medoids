@@ -81,7 +81,7 @@ class Partie:
 			y=randint(8,10)
 			"""
 			
-			self.listeDesPoints.append(Point(mi[i][0],mi[i][1]))
+			self.listeDesPoints.append(Point(li1[i],li2[i]))
 			#self.listeDesPoints.append(Point(x1,y1))
 	def nettoyage(self):
 		n=1
